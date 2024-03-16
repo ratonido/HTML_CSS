@@ -2,7 +2,7 @@
 
 Todos los docuemtos Html se componen de unos elementos principales:
 
-**La cabeza o head** <head> </head>
+**La cabeza o head** "" <head> </head> ""
 Aquí va todo lo relacionado con los metadatos de la página, como pueden ser los enlaces a scripts, el título o las hojas de estilo.
 Es el primer hijo de un documento html.
 
