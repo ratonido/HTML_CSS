@@ -7,15 +7,15 @@ Todos los docuemtos Html se componen de unos elementos principales:
 Aquí va todo lo relacionado con los metadatos de la página, como pueden ser los enlaces a scripts, el título o las hojas de estilo.
 Es el primer hijo de un documento html.
 
-De toda la información que contiene el head, la única que se va a ver en el navegador es el título o < title > < /title>
+De toda la información que contiene el head, la única que se va a ver en el navegador es el título o < title > < /title>.
 
 
 **El cuerpo o body** < body > < /body >
 
-El body contiene todo el contenido de la página, es decir todo lo que se va a ver en la página
+El body contiene todo el contenido de la página, es decir todo lo que se va a ver en la página.
 
 Estos elementos princiaples van dentro de la etiqueta <html> </html>.
-Todas las etiquetas de un coumento html lleva una apertura y un cierre.
+Todas las etiquetas de un documento html lleva una apertura y un cierre.
 
 
 
@@ -27,3 +27,5 @@ Todas las etiquetas de un coumento html lleva una apertura y un cierre.
 > + < ul > Lista desordenada.
 > + < ol > Lista ordenada.
 > + < li > List element o elemento de lista. Los elementos que van dentro de una lista.
+
+
