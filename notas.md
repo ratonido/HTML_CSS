@@ -27,5 +27,8 @@ Todas las etiquetas de un documento html lleva una apertura y un cierre.
 > + < ul > Lista desordenada.
 > + < ol > Lista ordenada.
 > + < li > List element o elemento de lista. Los elementos que van dentro de una lista.
+> + < form > Etiqueta para formularios. Dentro de usa la etiqueta < label for=""> para darle un b¡nombre a ese campo.Lleva también un atributo para guardar los datos introducidos en el formulario.
+> + Lleva otro atributo llamado **method**, el cual puede ser ="get" o ="post" en caso de que tengamos un servidor y queramos hacer algo con esa info.
+> < textarea > area de texto para introducir datos.
 
 
