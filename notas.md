@@ -71,5 +71,39 @@ p {
 }
 ```
 
++ Además de esto existen los **selectores**, que sirven para decir que dentro de un estilo que yo he creado para una etiqueta, una se comporte de una manera y otra se comporte de otra.
++ Para ello puede realizarse o bien por el id, o bien por el selector de clase.
+
+```
+Si se realiza por id:
+Primero modificamos la línea del documento que deseamos agregandole un id.
+<p id="parrafo de h1">Esto es un parrafo</p>
+A continuación vamos al  documento Css y añadimos:
+
+#parrafo-h1 {                    ⬅️ Con la almohadilla y el nombre del id uso el selector de **id**.
+    color:aqua;
+    font-size: 10pt;
+
+}
+
+Si se reliza por selector de clase:
+
+<h1 class="encabezado">Trabajando con CSS</h1>
+En el documento css en vez de usar la almohadilla usamos un **.**.
+
+
+.encabezado{
+    font-size: 24pt;
+}
+
+Existe también el selector universal, que es el asterisco * .
+si yo tengo creada un clase y en el Css utilizo el siguiente código aplicaré ese estilo a todo lo que lleve la clase con el nombre que le he dado.
+
+
+*.nombre de clase{
+    color:yellow;
+}
+
+```
 
 
