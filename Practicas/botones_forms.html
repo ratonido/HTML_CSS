@@ -7,7 +7,7 @@
         <body>
             <form action="resultados.hmtl" method="Get">
                 <div>
-                    <label for="nombreusuario" aria-required="true">Nombre de usuario</label>
+                    <label for="nombreusuario">Nombre de usuario</label>
                     <input type="text "name="nombreusuario" id="nombreusuario" required/> 
                 </div>
                 <div>
@@ -31,10 +31,18 @@
                     <label for="nacimiento">¿Cual es tu fecha de nacimiento</label>
                     <input type="date" name="nacimiento" id="nacimiento">
                 </div>
-
-                <button type="reset">Borrar campos</button>
-                
-                <button type="submit"> Enviar</button>
+                <div>
+                    <button type="reset">Borrar campos</button>
+                    <button type="submit"> Enviar</button>
+                </div>
+                <div>
+                    <label>Edad</label>
+                    <input type="number" name="edad" >
+                </div>
+                <div>
+                    <label>Fechas de nacimiento</label>
+                    <input type="date" id="naciiento">
+                </div>
 
                 
             </form>
