@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Formularios</title>
+        </head>
+
+        <body>
+            <form action="resultados.hmtl" method="Get">
+                <div>
+                    <label for="nombreusuario" aria-required="true">Nombre de usuario</label>
+                    <input type="text "name="nombreusuario" id="nombreusuario" required/> 
+                </div>
+                <div>
+                    <label for="password">Contraseña</label> 
+                    <input type="password" name="password" id="password" required/>
+                </div>
+                <div>
+                    <label>Comentarios</label>
+                    <textarea name="comentarios" id="comentarios"></textarea>
+                </div>
+                <div>
+                    <label for="edad">Introduce tu edad</label>
+                    <input type="number" name="edad" id="edad" min="0">
+                </div>
+                <div>
+                    <label for="email">¿Cual es tu email?</label>
+                    <input type="email" name="email" id="email">
+                
+                </div>
+                <div>
+                    <label for="nacimiento">¿Cual es tu fecha de nacimiento</label>
+                    <input type="date" name="nacimiento" id="nacimiento">
+                </div>
+
+                <button type="reset">Borrar campos</button>
+                
+                <button type="submit"> Enviar</button>
+
+                
+            </form>
+
+        </body>
+        
+    </html>
