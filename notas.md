@@ -45,6 +45,12 @@ Todas las etiquetas de un documento html lleva una apertura y un cierre.
 
 >La inserción de vídeo se realiza mediante la etiqueta < video>
 > + < video height=""px width=""px controls(para mostrar los controles) >
-> + < source src="ruta del archivo" type="video/mp4" o el formato que sea /> Los formatos más usados son mp4,ogg y webm  
+> + < source src="ruta del archivo" type="video/mp4" o el formato que sea /> Los formatos más usados son mp4,ogg y webm
+
+>La inserción de audio se realiza mediante la etiqueta < audio>
+> + < audio controls >
+> + < source src="ruta del archivo" type="audio/mp3" /> Los formatos más usados son mp3,wav,ogg.
+
+
 
 
