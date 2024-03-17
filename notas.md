@@ -32,4 +32,11 @@ Todas las etiquetas de un documento html lleva una apertura y un cierre.
 > < textarea > area de texto para introducir datos.
 > < button > Agrega un botón. Con el atributo type se le puede decir si resetea o envía.
 
+## 2. Tablas
+
+>Las tablas se abren con la etiqueta < table>. Dentro de estas hay etiquetas para las filas, las columnas y los encabezados de estas.
+> + < tr > Etiqueta table row, para las filas.
+> + < th > Etiqueta table header para los encabezados o nombres de las filas
+> + < td > Etiqueta table data, para los datos que irán dentro de la tabla. 
+
 
