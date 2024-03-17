@@ -32,14 +32,14 @@ Todas las etiquetas de un documento html lleva una apertura y un cierre.
 > < textarea > area de texto para introducir datos.
 > < button > Agrega un botón. Con el atributo type se le puede decir si resetea o envía.
 
-## 2. Tablas
+## 1.2. Tablas
 
 >Las tablas se abren con la etiqueta < table>. Dentro de estas hay etiquetas para las filas, las columnas y los encabezados de estas.
 > + < tr > Etiqueta table row, para las filas.
 > + < th > Etiqueta table header para los encabezados o nombres de las filas
 > + < td > Etiqueta table data, para los datos que irán dentro de la tabla.
 
-## 3. Imágenes y vídeo
+## 1.3. Imágenes y vídeo
 >La inserción de imágenes se realiza mediante la etiqueta < img > la cual lleva autocierre
 > + < img src="ruta del archivo" alt="nombre que se uestra si la página no carga la imagen" atributos variados(width, heihgt)/>
 
@@ -51,6 +51,25 @@ Todas las etiquetas de un documento html lleva una apertura y un cierre.
 > + < audio controls >
 > + < source src="ruta del archivo" type="audio/mp3" /> Los formatos más usados son mp3,wav,ogg.
 
+
+# 2. Hoja de estilos Css
+>La hojas de estilos Css se usan en las páginas para darle visosidad a los diferentes elementos.
+>Si se va a usar una hoja de estilos o más de una  hay que referenciarlas en el head.
+> + < link rel="stylesheet" href="ruta del archivo css que voy a usar">
+
++ Para crear una hoja de estilos, con el IDE que esté usando creo un documento.css y dentro de el voy escribiendo y modificando lo que necesito.
+
++ En el siguiente ejemplo se aplica estilo a las etiquetas de h1 y p con lo cual cada vez que aprezca esa etiqueta me aplicará todo lo que se encuentre dentro del estilo.
+```
+h1 {
+    color: blue;
+}
+
+p {
+    color:  red;
+    font-size: 20pt;
+}
+```
 
 
 
