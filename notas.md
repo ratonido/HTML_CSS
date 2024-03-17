@@ -99,7 +99,8 @@ En el documento css en vez de usar la almohadilla usamos un **.**.
 }
 
 Existe también el selector universal, que es el asterisco * .
-si yo tengo creada un clase y en el Css utilizo el siguiente código aplicaré ese estilo a todo lo que lleve la clase con el nombre que le he dado.
+si yo tengo creada un clase y en el Css utilizo el siguiente código aplicaré ese estilo a todo lo que lleve
+la clase con el nombre que le he dado.
 
 
 *.nombre de clase{
