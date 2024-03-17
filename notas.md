@@ -37,6 +37,14 @@ Todas las etiquetas de un documento html lleva una apertura y un cierre.
 >Las tablas se abren con la etiqueta < table>. Dentro de estas hay etiquetas para las filas, las columnas y los encabezados de estas.
 > + < tr > Etiqueta table row, para las filas.
 > + < th > Etiqueta table header para los encabezados o nombres de las filas
-> + < td > Etiqueta table data, para los datos que irán dentro de la tabla. 
+> + < td > Etiqueta table data, para los datos que irán dentro de la tabla.
+
+## 3. Imágenes y vídeo
+>La inserción de imágenes se realiza mediante la etiqueta < img > la cual lleva autocierre
+> + < img src="ruta del archivo" alt="nombre que se uestra si la página no carga la imagen" atributos variados(width, heihgt)/>
+
+>La inserción de vídeo se realiza mediante la etiqueta < video>
+> + < video height=""px width=""px controls(para mostrar los controles) >
+> + < source src="ruta del archivo" type="video/mp4" o el formato que sea /> Los formatos más usados son mp4,ogg y webm  
 
 
