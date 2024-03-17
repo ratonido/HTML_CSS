@@ -1,0 +1,26 @@
+.colores {
+    color:yellowgreen;
+
+
+}
+
+.color-hexadecimal{
+    
+    color:#1BE7FF
+
+}
+
+.rgb {
+    color:rgb(100, 30, 50)
+}
+.rgba{
+    color:rgba(49, 80, 0, 0.504)
+}
+
+/*FONDOS*/
+
+.fondo{
+    /* background-color:blue;*/
+    background-image: url("../img/fondo.jpg");
+    background-position: bottom right;
+}

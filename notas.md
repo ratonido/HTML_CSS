@@ -115,5 +115,16 @@ En el caso de que quisiera aplicar un mismo estilo a varios elementos
 }
 
 ```
+ + Hay diferentes formas de aplicar estilos. 
+    + Con el archivo de hoja de estilos Css.Esta es la más recomendada.
+    + Utilizando la etiqueta < style > dentro del head.Sino queda otra opción la usaremos.
+    + Otra manera es importar un Css desde un URL.
+    + Usando el atributo style.
+
+
+https://getbootstrap.com/ :arrow_left No necesita presentación.
+https://purecss.io/start/ :arrow_left hoja de estilos.
+https://coolors.co  :arrow_left nos permite crear paletas de colores aleatorias y copiar 
+el código HEX del color para usarlo en la hoja de estilos CSS.
 
 
