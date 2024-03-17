@@ -107,6 +107,13 @@ la clase con el nombre que le he dado.
     color:yellow;
 }
 
+En el caso de que quisiera aplicar un mismo estilo a varios elementos
+.autor, .fecha, .ubicacion{
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
 ```
 
 
