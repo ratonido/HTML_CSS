@@ -27,7 +27,8 @@ Todas las etiquetas de un documento html lleva una apertura y un cierre.
 > + < ul > Lista desordenada.
 > + < ol > Lista ordenada.
 > + < li > List element o elemento de lista. Los elementos que van dentro de una lista.
-> + < form > Etiqueta para formularios. Dentro se usa la etiqueta < label for=""> para darle un nombre a ese campo.Lleva también un atributo para guardar los datos introducidos en el formulario y el atributo required para hacerlo obligatorio
+> + < form > Etiqueta para formularios. Dentro se usa la etiqueta < label for=""> para darle un nombre a ese campo.Lleva también un atributo para guardar
+> los datos introducidos en el formulario y el atributo required para hacerlo obligatorio
 > + Lleva otro atributo llamado **method**, el cual puede ser ="get" o ="post" en caso de que tengamos un servidor y queramos hacer algo con esa info.
 > < textarea > area de texto para introducir datos.
 > < button > Agrega un botón. Con el atributo type se le puede decir si resetea o envía.
@@ -71,7 +72,8 @@ p {
 }
 ```
 
-+ Además de esto existen los **selectores**, que sirven para decir que dentro de un estilo que yo he creado para una etiqueta, una se comporte de una manera y otra se comporte de otra.
++ Además de esto existen los **selectores**, que sirven para decir que dentro de un estilo que yo he creado para una etiqueta,
+  una se comporte de una manera y otra se comporte de otra.
 + Para ello puede realizarse o bien por el id, o bien por el selector de clase.
 
 ```
