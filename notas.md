@@ -164,3 +164,23 @@ se muestre por encima del resto ya que sino no tendría sentido hacerlo fijo.
 + Absolute: .A diferencia del fixed, si hago scroll no voy a verlo ya que se mantiene en una posición 
 fija respecto al elemento padre.
 + Sticky. Muy parecido al index,utiliza para posicionarse una mezcla entre el fijo y el relativo
+
+
+## 2.3 Flex
++ El flex es una propiedad de CSS utilizada en webs responsibas ya que adapta su tamaño.
+
+```
+
+.flex {
+    background-color: yellow;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; :arrow_left Si no indico esta propiedad el elemento se expanderá en función del tamaño del contenedor
+    flex-wrap: wrap;   :arrow_left Indica la manera en como se flexionan los elementos
+}
+
+
+```
+
+https://codepen.io/enxaneta/full/adLPwv/ :arrow_left  Página para visualizar un flex según las propiedades que se usen
