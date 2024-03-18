@@ -124,7 +124,7 @@ En el caso de que quisiera aplicar un mismo estilo a varios elementos
 
 https://getbootstrap.com/ :arrow_left No necesita presentación.
 https://purecss.io/start/ :arrow_left hoja de estilos.
-https://coolors.co  :arrow_left nos permite crear paletas de colores aleatorias y copiar 
+https://coolors.co  ⬅️ nos permite crear paletas de colores aleatorias y copiar 
 el código HEX del color para usarlo en la hoja de estilos CSS.
 
 
