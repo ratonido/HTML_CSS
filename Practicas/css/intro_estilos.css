@@ -24,3 +24,25 @@
     background-image: url("../img/fondo.jpg");
     background-position: bottom right;
 }
+
+/*Alturas y anchuras*/
+
+.ancho{
+    width:100px;
+    background-color: aquamarine;
+
+}
+
+.alto{
+    height: 200px;
+    background-color: chartreuse;
+}
+
+.tarjeta{
+    border-style:solid;
+    border-color: rgb(150,150,150);
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 10px;
+    
+}

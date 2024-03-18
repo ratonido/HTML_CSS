@@ -127,4 +127,23 @@ https://purecss.io/start/ :arrow_left hoja de estilos.
 https://coolors.co  :arrow_left nos permite crear paletas de colores aleatorias y copiar 
 el código HEX del color para usarlo en la hoja de estilos CSS.
 
+## 2.1 Padding, border y margin
++ Padding: es un espacio interno dentro del elemento o espacio entre el borde del contenedor
+y el contenido del mismo.Si uso solo 
+```
+.tarjeta{
+    border-style:solid;
+    border-color: rgb(150,150,150);
+    border-width: 1px;
+    padding: 10px 20px   :arrow_left Si le paso 2 valores el primero es vertical y el segundo horizontal 
+                         con tres elementos el tercero es para la parte de abajo.
+}
 
+```
+
++ El margin es el espacio que guarda el elemento con respecto al resto.Podemos configurarlo como el padding.
+
++ El border es la línea del elemento. Por llamarlo de alguna manera, el recuadro.
+
++ Para los tipos de fuente, podemos usar los predeterminados, o los de google 
+https://fonts.google.com/ y añadirlos o bien a la hoja CSS o al documento.
