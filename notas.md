@@ -153,3 +153,14 @@ https://fonts.google.com/ y añadirlos o bien a la hoja CSS o al documento.
  + cuando se usa **span**, la disposición de éstos es inline, uno al siguiente del otro
  + Las imágenes por defecto tienen una disposición inline,block
  + La propiedad float nos permite posicionar los elementos inline.
+
+ >Existen 5 tipos de posicionamiento en CSS:
+ + Static: aplicado por defecto. no se suele modificar ya que no se ve afectdo,pero si puede
+ afectar a otros.
+ + Relative: Se posiciona en relación al posicionamiento original.
+ + Fixed: Ocupa una posición fija en relación a la pantalla. Independientemente del scroll que se haga
+siempre se mantendrá en la misma posición.La propiedad **z-index: valor;** hace que el elemento seiempre
+se muestre por encima del resto ya que sino no tendría sentido hacerlo fijo.
++ Absolute: .A diferencia del fixed, si hago scroll no voy a verlo ya que se mantiene en una posición 
+fija respecto al elemento padre.
++ Sticky. Muy parecido al index,utiliza para posicionarse una mezcla entre el fijo y el relativo
