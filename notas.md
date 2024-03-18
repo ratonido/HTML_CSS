@@ -147,3 +147,9 @@ y el contenido del mismo.Si uso solo
 
 + Para los tipos de fuente, podemos usar los predeterminados, o los de google 
 https://fonts.google.com/ y añadirlos o bien a la hoja CSS o al documento.
+
+## 2.2 Alineaciones y disposiciones
+ + Cuando se utiliza un **div** la disposición es block, por defecto va a crear uno debajo del otro.
+ + cuando se usa **span**, la disposición de éstos es inline, uno al siguiente del otro
+ + Las imágenes por defecto tienen una disposición inline,block
+ + La propiedad float nos permite posicionar los elementos inline.
