@@ -122,10 +122,10 @@ En el caso de que quisiera aplicar un mismo estilo a varios elementos
     + Usando el atributo style.
 
 
-https://getbootstrap.com/ :arrow_left No necesita presentación.
-https://purecss.io/start/ :arrow_left hoja de estilos.
-https://coolors.co  ⬅️ nos permite crear paletas de colores aleatorias y copiar 
-el código HEX del color para usarlo en la hoja de estilos CSS.
+>+ https://getbootstrap.com/  ⬅️ No necesita presentación.
+>+ https://purecss.io/start/ ⬅️ hoja de estilos.
+>+ https://coolors.co  ⬅️ nos permite crear paletas de colores aleatorias y copiar 
+>+ El código HEX del color para usarlo en la hoja de estilos CSS.
 
 ## 2.1 Padding, border y margin
 + Padding: es un espacio interno dentro del elemento o espacio entre el borde del contenedor
